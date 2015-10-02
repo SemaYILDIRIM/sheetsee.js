@@ -13,7 +13,7 @@ cpr('./demos', './site/demos', function(err, files) {
   cpr('./js', './site/js', function(err, files) {
     if (err) return console.log(err)
   })
-})
+})dsfds
 
 fs.readFile('readme.md', function(err, file) {
   if (err) return console.log(err)
